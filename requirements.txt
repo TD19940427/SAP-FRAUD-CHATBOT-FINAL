@@ -1,0 +1,14 @@
+# Requirements for SAP Fraud Detection Chatbot
+# Install with: pip install -r requirements.txt
+
+# Core requirements (FREE - no API keys needed)
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# OPTIONAL: Only install if you want AI-powered responses
+# (The chatbot works WITHOUT these using rule-based system)
+# langchain>=0.1.0
+# langchain-openai>=0.0.5
+# langchain-community>=0.0.49
+# openai>=1.0.0
