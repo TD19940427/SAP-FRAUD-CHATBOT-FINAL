@@ -40,14 +40,14 @@ def load_data():
     """Load all fraud detection datasets"""
     try:
         # Load main dataset
-        df = pd.read_csv("sap_invoice_risk_master_SMALL.csv")
+        df = pd.read_csv("sap_invoice_risk_master.csv")
         df['date'] = pd.to_datetime(df['date'])
         
         # Load vendor summary
-        vendor_summary = pd.read_csv("vendor_intelligence_summary_GITHUB.csv")
+        vendor_summary = pd.read_csv("vendor_intelligence_summary.csv")
         
         # Load V10848 forecast
-        df_v10848 = pd.read_csv("v10848_temporal_analysis_GITHUB.csv")
+        df_v10848 = pd.read_csv("v10848_temporal_analysis.csv")
         if 'ds' in df_v10848.columns:
             df_v10848['ds'] = pd.to_datetime(df_v10848['ds'])
         elif 'date' in df_v10848.columns:
