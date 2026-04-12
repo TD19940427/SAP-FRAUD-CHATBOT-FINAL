@@ -37,6 +37,7 @@ Unity Catalog Delta Tables
         │
         ├── Streamlit App (Dashboard + LangChain Chatbot)
         └── SAP Datasphere → SAP Analytics Cloud (SAC Reports)
+
 📥 Data Sources
 1) SAP S/4HANA Tables
      A) LFA1 – Vendor Master
@@ -77,6 +78,7 @@ All datasets were aligned, standardized, and unified into a single fraud dataset
 3) Waterfall plots for anomaly drivers
 4) Business‑friendly insights
 ⚙️ Azure Databricks Pipeline
+
 Jobs Created
 00_setup_and_data_load
 01_xgboost_fraud_classifier
@@ -84,22 +86,26 @@ Jobs Created
 03_risk_scoring_and_logistic_layers
 04_time_series_forecasting
 05_orchestrator
+
 Pipeline Features
 1) Auto‑triggered workflows
 2) Cluster auto‑termination
 3) Modular notebook design
 4) Unity Catalog table outputs
 💬 LangChain Fraud Intelligence Chatbot
+
 Built using:
 1) LangChain DataFrame Agent
 2) OpenAI Chat Model
 3) RAG‑style SQL + DataFrame retrieval
 4) Streamlit UI
+
 Capabilities:
 1) Vendor risk Q&A
 2) Fraud pattern explanations
 3) Forecast interpretation
 4) Scenario‑based insights
+
 🌐 Streamlit Web Application
 Features:
 1) High‑risk invoice explorer
@@ -107,6 +113,7 @@ Features:
 3) Anomaly visualizations
 4) Forecast charts
 5) Integrated LangChain chatbot
+
 📊 SAP Datasphere + SAC Reporting
 1) Delta tables exported to Datasphere
 2) SAC dashboards built for:
@@ -114,6 +121,7 @@ Features:
 4) Fraud probability
 5) Anomaly distribution
 6) Cash flow forecasting
+
 🏁 End‑to‑End Outcome
 This project demonstrates:
 1) SAP data engineering
