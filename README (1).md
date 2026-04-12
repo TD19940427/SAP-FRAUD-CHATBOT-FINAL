@@ -52,11 +52,13 @@ Unity Catalog Delta Tables
 All datasets were aligned, standardized, and unified into a single fraud dataset.
 
 🧠 Machine Learning Models
+
 1️⃣ XGBoost (Supervised Fraud Detection)
      A) Bayesian hyperparameter optimization using BayesSearchCV
      B) Reduced training time from 1 hour → 15 minutes
      C) Achieved AUC = 0.909
      D) Feature importance + SHAP explanations
+
 2️⃣ Isolation Forest (Unsupervised Anomaly Detection)
      A) Multi‑scenario contamination strategy
      B) Flags:
@@ -64,10 +66,12 @@ All datasets were aligned, standardized, and unified into a single fraud dataset
           b) Expense
          c) Low‑Volume Vendors
      C) Identifies structuring, invoice flooding, and rare events
+
 3️⃣ Logistic Regression (Process Integrity Models)
      A) Discount Capture Model
      B) Late Payment Risk Model
      C) Manual vs Automated Entry Model
+
 4️⃣ ARIMA Forecasting
      A) Daily cash outflow forecasting
      B) Vendor‑level temporal analysis
@@ -80,12 +84,12 @@ All datasets were aligned, standardized, and unified into a single fraud dataset
 ⚙️ Azure Databricks Pipeline
 
 Jobs Created
-00_setup_and_data_load
-01_xgboost_fraud_classifier
-02_isolation_forest_anomaly
-03_risk_scoring_and_logistic_layers
-04_time_series_forecasting
-05_orchestrator
+1) 00_setup_and_data_load
+2) 01_xgboost_fraud_classifier
+3) 02_isolation_forest_anomaly
+4) 03_risk_scoring_and_logistic_layers
+5) 04_time_series_forecasting
+6) 05_orchestrator
 
 Pipeline Features
 1) Auto‑triggered workflows
